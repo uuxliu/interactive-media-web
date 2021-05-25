@@ -1,0 +1,149 @@
+/* Exercise 2: CSS Flags */
+
+
+/* Stylistic Body Choices Starts */
+body {
+	background-color: black;
+	color: white;
+}
+/* Black background prevents having those not-so-appealing black borders where the white colors are. */
+/* Stylistic Body Choices End */
+
+
+/* Stylistic Text Choices Starts */
+h1 {
+	text-align: center;
+	font-size: 30px;
+	font-family: Poppins;
+}
+
+.exercise-intro {
+	text-align: center;
+	font-size: 30px;
+	font-family: Poppins;
+}
+
+p {
+	text-align: center;
+	font-size: 15px;
+	font-family: Arial;
+}
+/* Stylistic Text Choices Ends */
+
+
+/* Stylistic Flag Choices Starts */
+.flag{
+	display: grid;
+}
+
+/* Start: Sweden Flag */
+.flag-sweden{
+	margin: auto;
+	width: 160px;
+	height: 100px;
+	grid-template-columns: 50px 20px 90px;
+	grid-template-rows: 40px 20px 40px;
+}
+
+.grid-item-yellowstripe {
+	background-color: #FBD009;
+	grid-column-start: 1;
+	grid-column-end: span 3;
+}
+
+.grid-item-blue {
+	background-color: #1366A0;
+}
+
+.grid-item-yellow {
+	background-color: #FBD009;
+}
+/* End: Sweden Flag*/
+
+/* Start: Finland Flag*/
+.flag-finland{
+	margin: auto;
+	width: 180px;
+	height: 130px;
+	grid-template-columns: 50px 30px 100px;
+	grid-template-rows: 50px 30px 50px;
+}
+
+.grid-item-bluestripe {
+	background-color: #1366A0;
+	grid-column-start: 1;
+	grid-column-end: span 3;
+}
+
+.grid-item-blue {
+	background-color: #1366A0;
+}
+
+.grid-item-white{
+	background-color: white;
+}
+/* End: Finland Flag */
+
+/* Start: Denmark Flag */
+.flag-denmark{
+	margin: auto;
+	width: 170px;
+	height: 140px;
+	grid-template-columns: 60px 20px 90px;
+	grid-template-rows: 60px 20px 60px;
+}
+
+.grid-item-whitestripe{
+	background-color: white;
+	grid-column-start: 1;
+	grid-column-end: span 3;
+}
+
+.grid-item-red{
+	background-color: #ED1D24;
+}
+
+.grid-item-white{
+	background-color: white;
+}
+/* End: Denmark Flag */
+
+/* Start: Iceland Flag */
+.flag-iceland{
+	margin: auto;
+	width: 250px;
+	height: 180px;
+	grid-template-columns: 70px 10px 20px 10px 140px;
+	grid-template-rows: 70px 10px 20px 10px 70px;
+}
+
+.grid-item-redstripe{
+	background-color: #ED1C23;
+	grid-column-start: 1;
+	grid-column-end: span 5;
+}
+/* End: Denmark Flag */
+
+/* Start: Wendy Flag */
+.flag-wendy{
+	margin: auto;
+	width: 325px;
+	height: 225px;
+	grid-template-columns: 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
+	grid-template-rows: 25px 25px 25px 25px 25px 25px 25px 25px 25px;
+}
+
+.grid-item-white{
+	background-color: white;
+}
+
+.grid-item-pink{
+	background-color: #FFCAEF;
+}
+
+.grid-item-hotpink{
+	background-color: #FF66C5;
+}
+/* End: Wendy Flag */
+/* Stylistic Flag Choices End */
+
