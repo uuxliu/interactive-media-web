@@ -13,6 +13,12 @@ body {
 /* Stylistic Body Choices End */
 
 /* Stylistic Choices Start */
+@font-face {
+	font-family: amagro-bold;
+	src:  url("/Users/wendyliu/Desktop/OCAD/8. Spring:Summer 2021/Interactive Media (Web)/Assignments/GitHub Page/assignments/exercise-3/Amagro/amagro-bold.woff");
+}
+
+
 h1 {
 	font-family: Poppins, "Helvetica", sans-serif;
 	font-size: 30px;
@@ -44,7 +50,7 @@ p {
 }
 
 .alternate {
-	font-family: "Metaflop","Garamond", Georgia, sans-serif;
+	font-family: amagro-bold,"Garamond", Georgia, sans-serif;
 	font-size: 75px;
 }
 /* Text Styling End */
