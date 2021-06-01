@@ -31,14 +31,6 @@ p {
 /* Stylistic Choices End */
 
 /* Text Styling Start*/
-@font-face {
-	font-family: "Metaflop";
-	src: url("Bespoke-0BBNPM-5-x.ttf") format("truetype");
-	src: url("Bespoke-0BBNPM-5-x.eot") format("eot");
-	src: url("Bespoke-0BBNPM-5-x.woff") format("woff");
-	src: url("Bespoke-0BBNPM-5-x.svg") format("svg");
-}
-
 .vanish {
 	font-family: permanent-marker,"Brush Script MT", Verdana, sans-serif;
 	font-weight: 400;
