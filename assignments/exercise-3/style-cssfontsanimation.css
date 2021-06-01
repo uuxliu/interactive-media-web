@@ -14,10 +14,10 @@ body {
 
 /* Stylistic Choices Start */
 @font-face {
-	font-family: amagro-bold;
-	src:  url("/Users/wendyliu/Desktop/OCAD/8. Spring:Summer 2021/Interactive Media (Web)/Assignments/GitHub Page/assignments/exercise-3/Amagro/amagro-bold.woff");
+	font-family: Amagro;
+	src:  url("/Users/wendyliu/Desktop/OCAD/8. Spring:Summer 2021/Interactive Media (Web)/Assignments/GitHub Page/assignments/exercise-3/Amagro/Amagro.woff");
+	src: url("/Users/wendyliu/Desktop/OCAD/8. Spring:Summer 2021/Interactive Media (Web)/Assignments/GitHub Page/assignments/exercise-3/Amagro/Amagro.woff2");
 }
-
 
 h1 {
 	font-family: Poppins, "Helvetica", sans-serif;
@@ -50,7 +50,7 @@ p {
 }
 
 .alternate {
-	font-family: amagro-bold,"Garamond", Georgia, sans-serif;
+	font-family: Amagro,"Garamond", Georgia, sans-serif;
 	font-size: 75px;
 }
 /* Text Styling End */
