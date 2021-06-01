@@ -13,12 +13,6 @@ body {
 /* Stylistic Body Choices End */
 
 /* Stylistic Choices Start */
-@font-face {
-	font-family: Amagro;
-	src:  url("/Users/wendyliu/Desktop/OCAD/8. Spring:Summer 2021/Interactive Media (Web)/Assignments/GitHub Page/assignments/exercise-3/Amagro/Amagro.woff");
-	src: url("/Users/wendyliu/Desktop/OCAD/8. Spring:Summer 2021/Interactive Media (Web)/Assignments/GitHub Page/assignments/exercise-3/Amagro/Amagro.woff2");
-}
-
 h1 {
 	font-family: Poppins, "Helvetica", sans-serif;
 	font-size: 30px;
@@ -47,6 +41,13 @@ p {
 .amplify {
 	font-family: Major Mono Display, "Tahoma", Helvetica, monospace;
 	font-size: 75px;
+}
+
+/* Hosted Font: Amagro */
+@font-face {
+	font-family: Amagro;
+	src:  url("/Users/wendyliu/Desktop/OCAD/8. Spring:Summer 2021/Interactive Media (Web)/Assignments/GitHub Page/assignments/exercise-3/Amagro/Amagro.woff") format("woff");
+	src: url("/Users/wendyliu/Desktop/OCAD/8. Spring:Summer 2021/Interactive Media (Web)/Assignments/GitHub Page/assignments/exercise-3/Amagro/Amagro.woff2") format("woff2");
 }
 
 .alternate {
