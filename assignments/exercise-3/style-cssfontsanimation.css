@@ -39,17 +39,28 @@ p {
 }
 
 @keyframes blink-letters {
-	from {
+	100% {
 		opacity: 1;
 	}
-	to {
+	0% {
+		opacity: 0.5;
+	}
+	75% { opacity: 1;
+	}
+	0% {
+		opacity: 0.3;
+	}
+	30% {
 		opacity: 0;
+	}
+	100% {
+		opacity: 1;
 	}
 }
 
 .flicker:hover {
 	color: yellow;
-	animation:  blink-letters 10ms infinite alternate-reverse;
+	animation: blink-letters 0.5ms ease-in-out infinite alternate-reverse;
 }
 /* Flicker Ends */
 
@@ -58,7 +69,7 @@ p {
 	color: royalblue;
 	font-family: Major Mono Display, "Tahoma", Helvetica, monospace;
 	font-size: 75px;
-	transition: opacity 100ms ease;
+	transition: opacity 150ms ease;
 }
 
 @keyframes bye-letters {
@@ -97,10 +108,16 @@ p {
 
 /* Pulsate Starts */
 /* Hosted Font: Amagro */
-@font-face {
+/*@font-face {
 	font-family: Amagro;
-	src:  url("/Users/wendyliu/Desktop/OCAD/8. Spring:Summer 2021/Interactive Media (Web)/Assignments/GitHub Page/assignments/exercise-3/Amagro/Amagro.woff") format("woff");
-	src: url("/Users/wendyliu/Desktop/OCAD/8. Spring:Summer 2021/Interactive Media (Web)/Assignments/GitHub Page/assignments/exercise-3/Amagro/Amagro.woff2") format("woff2");
+	src:  url("http://uuxliu.github.io/interactive-media-web/assignments/exercise-3/Amagro/Amagro.woff") format("woff");
+	src: url("http://uuxliu.github.io/interactive-media-web/assignments/exercise-3/Amagro/Amagro.woff2") format("woff2");
+}*/
+
+@font-face {
+font-family: Amagro;
+src:  url("Amagro/Amagro.woff") format("woff");
+src: url("Amagro/Amagro.woff2") format("woff2");
 }
 
 .pulsate {
@@ -124,6 +141,6 @@ p {
 }
 
 .pulsate:hover {
-	animation: pump 150ms infinite ease-in-out alternate-reverse;
+	animation: pump 300ms infinite ease-in-out alternate-reverse;
 }
 /* Pulsate Ends */
