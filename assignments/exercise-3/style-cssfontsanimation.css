@@ -38,29 +38,64 @@ p {
 	font-size: 75px;
 }
 
-@keyframes blink {
+@keyframes blink-letters {
 	from {
-		opacity: 0;
+		opacity: 1;
 	}
 	to {
-		opacity: 1;
+		opacity: 0;
 	}
 }
 
-.flicker: hover {
+.flicker:hover {
 	color: yellow;
-	animation: blink 1s infinte alternate;
+	animation:  blink-letters 10ms infinite alternate-reverse;
 }
 /* Flicker Ends */
 
 /* Vanish Starts */
 .vanish {
+	color: royalblue;
 	font-family: Major Mono Display, "Tahoma", Helvetica, monospace;
 	font-size: 75px;
+	transition: opacity 100ms ease;
+}
+
+@keyframes bye-letters {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+.V:hover {
+	animation: bye-letters 2.5s infinite;
+}
+
+.A1:hover {
+	animation: bye-letters 2.5s infinite;
+}
+
+.N1:hover {
+	animation: bye-letters 2.5s infinite;
+}
+
+.I:hover {
+	animation: bye-letters 2.5s infinite;
+}
+
+.S:hover {
+	animation: bye-letters 2.5s infinite;
+}
+
+.H:hover {
+	animation: bye-letters 2.5s infinite;
 }
 /* Vanish Ends */
 
-/* Alternate Starts */
+/* Pulsate Starts */
 /* Hosted Font: Amagro */
 @font-face {
 	font-family: Amagro;
@@ -68,34 +103,27 @@ p {
 	src: url("/Users/wendyliu/Desktop/OCAD/8. Spring:Summer 2021/Interactive Media (Web)/Assignments/GitHub Page/assignments/exercise-3/Amagro/Amagro.woff2") format("woff2");
 }
 
-.alternate {
+.pulsate {
 	font-family: Amagro,"Garamond", Georgia, sans-serif;
 	font-size: 75px;
 }
-/* Alternate Ends */
 
+@keyframes pump {
+	0% {
+		color: white;
+		transform: scale(0.9);
+	}
+	100% {
+		color: crimson;
+		transform: scale(1);
+	}
+	0% {
+		color: white;
+		transform: scale(0.9);
+	}
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.pulsate:hover {
+	animation: pump 150ms infinite ease-in-out alternate-reverse;
+}
+/* Pulsate Ends */
