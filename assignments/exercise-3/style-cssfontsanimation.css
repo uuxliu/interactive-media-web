@@ -30,19 +30,37 @@ p {
 }
 /* Stylistic Choices End */
 
-/* Text Styling Start*/
-.vanish {
+/* Flicker Starts*/
+.flicker {
 	font-family: permanent-marker,"Brush Script MT", Verdana, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 75px;
 }
 
-.amplify {
+@keyframes blink {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.flicker: hover {
+	color: yellow;
+	animation: blink 1s infinte alternate;
+}
+/* Flicker Ends */
+
+/* Vanish Starts */
+.vanish {
 	font-family: Major Mono Display, "Tahoma", Helvetica, monospace;
 	font-size: 75px;
 }
+/* Vanish Ends */
 
+/* Alternate Starts */
 /* Hosted Font: Amagro */
 @font-face {
 	font-family: Amagro;
@@ -54,7 +72,26 @@ p {
 	font-family: Amagro,"Garamond", Georgia, sans-serif;
 	font-size: 75px;
 }
-/* Text Styling End */
+/* Alternate Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
