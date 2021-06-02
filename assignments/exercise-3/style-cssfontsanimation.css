@@ -60,7 +60,7 @@ p {
 
 .flicker:hover {
 	color: yellow;
-	animation: blink-letters 0.5ms ease-in-out infinite alternate-reverse;
+	animation: blink-letters 0.25ms ease-in-out infinite alternate-reverse;
 }
 /* Flicker Ends */
 
@@ -108,17 +108,33 @@ p {
 
 /* Pulsate Starts */
 /* Hosted Font: Amagro */
-/*@font-face {
+@font-face {
 	font-family: Amagro;
-	src:  url("http://uuxliu.github.io/interactive-media-web/assignments/exercise-3/Amagro/Amagro.woff") format("woff");
-	src: url("http://uuxliu.github.io/interactive-media-web/assignments/exercise-3/Amagro/Amagro.woff2") format("woff2");
-}*/
+	src:  url("http://uuxliu.github.io/interactive-media-web/assignments/exercise-3/Amagro/amagro-webfont.woff") format("woff");
+	src: url("http://uuxliu.github.io/interactive-media-web/assignments/exercise-3/Amagro/amagro-webfont.woff2") format("woff2");
+}
+
+/* 
+
+Another method of implementing hosted fonts:
 
 @font-face {
 font-family: Amagro;
-src:  url("Amagro/Amagro.woff") format("woff");
-src: url("Amagro/Amagro.woff2") format("woff2");
+src:  url("Amagro/amagro-webfont.woff") format("woff");
+src: url("Amagro/amagro-webfont.woff2") format("woff2");
 }
+
+Or...can copy+paste stylesheet given by Font Squirrel
+-still need to make sure that the link path is correct
+-Font Squirrel packages: 
+	-font files in same folder as stylesheet = no subdirectory (folder):
+	
+	src: url('amagro-bold.woff2') format('woff2'),
+         url('amagro-bold.woff') format('woff’);
+
+    -if all of files are in one folder, this would work^
+
+*/
 
 .pulsate {
 	font-family: Amagro,"Garamond", Georgia, sans-serif;
@@ -141,6 +157,6 @@ src: url("Amagro/Amagro.woff2") format("woff2");
 }
 
 .pulsate:hover {
-	animation: pump 300ms infinite ease-in-out alternate-reverse;
+	animation: pump 200ms infinite ease-in-out alternate-reverse;
 }
 /* Pulsate Ends */
