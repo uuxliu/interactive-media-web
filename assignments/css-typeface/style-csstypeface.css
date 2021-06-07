@@ -1,0 +1,1377 @@
+/* CSS Typeface Stylesheet */
+
+/* Stylistic Text Choices Starts */
+* {
+	text-align: center;
+}
+
+body {
+	background-color: palevioletred;
+	color: black;
+}
+
+h1, .intro {
+	font-size: 30px;
+	font-family: Poppins, sans-serif;
+}
+
+p {
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+}
+/* Stylistic Text Choices Ends */
+
+/* Letter A Starts */
+.letter-a {
+	position: absolute;
+}
+
+.a-tri {
+	width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid crimson;
+    position: relative;
+    left: 70px;
+    z-index: 5;
+ }
+
+.a-tri2 {
+	width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 160px solid darkorange;
+    position: relative;
+    transform: rotate(110deg);
+    left: 95px;
+    top: -410px;
+    z-index: 2;
+}
+
+.a-rec {
+	height: 215px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(25deg);
+ 	left: 65px;
+ 	top: -67px;
+ 	z-index: 3;
+}	
+
+.a-rec2 {
+	height: 130px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(-25deg);
+ 	left: 140px;
+ 	bottom: 201px;
+ 	z-index: 1;
+}
+
+.a-rec3 {
+	height: 50px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 94px;
+ 	top: -295px;
+ 	z-index: 4;
+}
+/* Letter A Ends */
+
+/* Letter B Starts */
+.letter-b {
+	position: absolute;
+}
+
+.b-rec {
+	height: 200px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(0deg);
+ 	left: 50px;
+ 	z-index: 2;
+}
+
+.b-cir {
+	height: 72px;
+	width: 72px;
+	background: mediumseagreen;
+	border-radius: 50%;
+	position: relative;
+	left: 60px;
+	bottom: 200px;
+	z-index: 2;
+}
+
+.b-cir2 {
+	height: 125px;
+	width: 125px;
+	background: mediumseagreen;
+	border-radius: 50%;
+	position: relative;
+	left: 40px;
+	bottom: 197px;
+	z-index: 1;
+}
+
+.b-tri {
+	hieght: 0;
+    width: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 60px solid #ffdf00;
+	position: relative;
+	left: 70px;
+	bottom: 295px;
+	z-index: 4;
+}
+/* Letter B Ends */
+
+/* Letter C Starts */
+.letter-c {
+	position: absolute;
+}
+
+.c-tri {
+	height: 0;
+	width: 0;
+	border-top: 100px solid transparent;
+	border-right: 75px solid royalblue;
+	border-bottom: 100px solid transparent;
+	position: relative;
+	left: 20px;
+	z-index: 2;
+}
+
+.c-tri2 {
+	width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid mediumpurple;
+    position: relative;
+    left: 115px;
+    bottom: 190px;
+    z-index: 3;
+}
+
+.c-rec {
+	height: 200px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(25deg);
+ 	left: 70px;
+ 	bottom: 245px;
+ 	z-index: 4;
+}
+
+.c-rec2 {
+	height: 80px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 110px;
+ 	bottom: 287px;
+ 	z-index: 1;
+}
+/* Letter C Ends */
+
+/* Letter D Starts */
+.letter-d {
+	position: absolute;
+}
+
+.d-rec {
+	height: 200px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 45px;
+ 	z-index: 1;
+}
+
+.d-tri {
+	height: 0;
+	width: 0;
+	border-top: 100px solid transparent;
+	border-right: 100px solid darkorange;
+	border-bottom: 100px solid transparent;
+	position: relative;
+	transform: rotate(180deg);
+	left: 80px;
+	bottom: 200px;
+	z-index: 2;
+}
+
+.d-cir {
+	height: 75px;
+	width: 75px;
+	background: crimson;
+	border-radius: 50%;
+	position: relative;
+	left: 50px;
+	bottom: 335px;
+	z-index: 3;
+}
+/* Letter D Ends */
+
+/* Letter E Ends */
+.letter-e {
+	position: absolute;
+}
+
+.e-rec {
+	height: 110px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 100px;
+ 	bottom: 40px;
+ 	z-index: 2;
+}
+
+.e-rec2 {
+	height: 125px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 90px;
+ 	top: 21px;
+ 	z-index: 3;
+}
+
+.e-tri {
+	width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 200px solid mediumseagreen;
+    position: relative;
+    transform: rotate(180deg);
+    left: 40px;
+    bottom: 235px;
+    z-index: 1;
+}
+
+.e-tri2 {
+	width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 96px solid mediumseagreen;
+    position: relative;
+    transform: rotate(80deg);
+    left: 105px;
+    bottom: 385px;
+    z-index: 5;
+}
+
+.e-cir {
+	height: 40px;
+	width: 40px;
+	background: #ffdf00;
+	border-radius: 50%;
+	position: relative;
+	left: 50px;
+	bottom: 464px;
+	z-index: 4;
+}
+/* Letter E Ends */
+
+/* Letter F Starts */
+.letter-f {
+	position: absolute;
+}
+
+.f-tri {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 155px solid mediumpurple;
+	border-bottom: 25px solid transparent;
+	transform: rotate(-15deg);
+	position: relative;
+	left: 25px;
+	bottom: 5px;
+	z-index: 3;
+}
+
+.f-rec {
+	height: 200px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 55px;
+ 	bottom: 50px;
+ 	z-index: 1;
+}
+
+.f-rec2 {
+	height: 50px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 100px;
+ 	bottom: 180px;
+ 	z-index: 4;
+}
+
+.f-cir {
+	height: 45px;
+	width: 45px;
+	background: royalblue;
+	border-radius: 50%;
+	position: relative;
+	left: 60px;
+	bottom: 227px;
+	z-index: 2;
+}
+/* Letter F Ends */
+
+/* Letter G Starts */
+.letter-g {
+	position: absolute;
+}
+
+.g-tri {
+	height: 0;
+	width: 0;
+	border-top: 100px solid transparent;
+	border-right: 85px solid crimson;
+	border-bottom: 100px solid transparent;
+	position: relative;
+	left: 5px;
+	z-index: 4;
+}
+
+.g-rec{
+	height: 115px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 100px;
+ 	bottom: 230px;
+ 	z-index: 5;
+}
+
+.g-rec2 {
+	height: 115px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 100px;
+ 	bottom: 180px;
+ 	z-index: 3;
+}
+
+.g-rec3 {
+	height:50px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(180deg);
+ 	left: 150px;
+ 	bottom: 305px;
+ 	z-index: 2;
+}
+
+.g-tri2 {
+	width: 0;
+	height: 0;
+    border-top: 25px solid transparent;
+    border-left: 50px solid darkorange;
+    border-bottom: 25px solid transparent;
+    position: relative;
+    left: 136px;
+    bottom: 380px;
+    z-index: 1;
+}
+/* Letter G Ends */
+
+/* Letter H Starts */
+.letter-h {
+	position: absolute;
+}
+
+.h-rec {
+	height: 200px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 33px;
+}
+
+.h-rec2 {
+	height: 200px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 155px;
+ 	bottom: 200px;
+}
+
+.h-tri {
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-left: 170px solid #ffdf00;
+	border-bottom: 30px solid transparent;
+	transform: rotate(10deg);
+	position: relative;
+	left: 20px;
+	bottom: 320px;
+}
+
+.h-rec3 {
+	height: 25px;
+	width: 25px;
+	background: mediumseagreen;
+	position: relative;
+	left: 110px;
+	bottom: 350px;
+}
+/* Letter H Ends */
+
+/* Letter I Starts */
+.letter-i {
+	position: absolute;
+}
+
+.i-rec {
+	height: 100px;
+  	width: 15px;
+ 	background-color: black;
+ 	transform: rotate(90deg);
+ 	position: relative;
+ 	left: 90px;
+ 	bottom: 43px;
+ 	z-index: 1;
+}
+
+.i-rec2 {
+	height: 100px;
+  	width: 15px;
+ 	background-color: black;
+ 	transform: rotate(90deg);
+ 	position: relative;
+ 	left: 90px;
+ 	top: 43px;
+ 	z-index: 3;
+}
+
+.i-rec3 {
+	height: 17px;
+  	width: 17px;
+ 	background-color: royalblue;
+ 	position: relative;
+ 	left: 60px;
+ 	bottom: 120px;
+ 	z-index: 4;
+}
+
+.i-rec4 {
+	height: 17px;
+  	width: 17px;
+ 	background-color: royalblue;
+ 	position: relative;
+ 	left: 110px;
+ 	bottom: 80px;
+ 	z-index: 5;
+}
+
+.i-tri {
+	width: 0;
+	height: 0;
+	border-top: 30px solid transparent;
+	border-left: 200px solid mediumpurple;
+	border-bottom: 30px solid transparent;
+	transform: rotate(270deg);
+	position: relative;
+	right: 3px;
+	bottom: 165px;
+	z-index: 2;
+}
+/* Letter I Ends */
+
+/* Letter J Starts */
+.lette-j {
+	position: absolute;
+}
+
+.j-tri {
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-left: 160px solid darkorange;
+	border-bottom: 20px solid transparent;
+	transform: rotate(345deg);
+	position: relative;
+	left: 25px;
+	top: 1px;
+}
+
+.j-rec {
+	height: 155px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 95px;
+ 	bottom: 18px;
+}
+
+.j-rec2 {
+	height: 55px;
+  	width: 55px;
+ 	background-color: crimson;
+ 	position: relative;
+ 	left: 47px;
+ 	bottom: 50px;
+}
+
+.j-rec3 {
+	height: 60px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 40px;
+ 	bottom: 119px;
+}
+/* Letter J Ends */
+
+/* Letter K Starts */
+.letter-k {
+	position: absolute;
+}
+
+.k-rec {
+	height: 200px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 50px;
+ 	z-index: 2;
+}
+
+.k-tri {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 150px solid mediumseagreen;
+	border-bottom: 10px solid transparent;
+	transform: rotate(135deg);
+	position: relative;
+	left: 10px;
+	bottom: 130px;
+	z-index: 3;
+}
+
+.k-rec2 {
+	height: 80px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(145deg);
+ 	left: 123px;
+ 	bottom: 96px;
+ 	z-index: 4;
+}
+
+.k-cir {
+	height: 70px;
+	width: 70px;
+	background: #ffdf00;
+	border-radius: 50%;
+	position: relative;
+	left: 30px;
+	bottom: 240px;
+	z-index: 1;
+}
+/* Letter K Ends */
+
+/* Letter L Starts */
+.letter-l {
+	position: absolute;
+}
+
+.l-tri {
+	height: 0;
+	width: 0;
+	border-top: 100px solid transparent;
+	border-right: 55px solid royalblue;
+	border-bottom: 100px solid transparent;
+	position: relative;
+	left: 25px;
+	z-index: 2;
+}
+
+.l-rec {
+	height: 90px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 45px;
+ 	bottom: 200px;
+ 	z-index: 3;
+}
+
+.l-rec2 {
+	height: 120px;
+  	width: 15px;
+ 	background-color: black;
+ 	transform: rotate(90deg);
+ 	position: relative;
+ 	left: 100px;
+ 	bottom: 157px;
+ 	z-index: 1;
+}
+
+.l-cir {
+	height: 30px;
+	width: 30px;
+	background: mediumpurple;
+	border-radius: 50%;
+	position: relative;
+	left: 40px;
+	bottom: 270px;;
+	z-index: 4;
+}
+/* Letter L Ends */
+
+/* Letter M Starts */
+.letter-m {
+	position: absolute;
+}
+
+.m-tri {
+	height: 0;
+	width: 0;
+	border-top: 100px solid transparent;
+	border-right: 60px solid darkorange;
+	border-bottom: 100px solid transparent;
+	transform: rotate(180deg);
+	position: relative;
+	left: 30px;
+	z-index: ;
+}
+
+.m-tri2 {
+	width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 40px solid crimson;
+    left: 90px;
+    bottom: 85px;
+    position: relative;
+}
+
+.m-tri3 {
+	width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 80px solid crimson;
+    transform: rotate(180deg);
+    position: relative;
+    left: 110px;
+    bottom: 240px;
+}
+
+.m-rec {
+	height: 70px;
+  	width: 15px;
+ 	background-color: black;
+ 	transform: rotate(90deg);
+ 	left: 100px;
+ 	bottom: 255px;
+ 	position: relative;
+}
+
+.m-rec2 {
+	height: 109px;
+  	width: 15px;
+ 	background-color: black;
+ 	left: 155px;
+ 	bottom: 298px;
+ 	position: relative;
+}
+/* Letter M Ends */
+
+/* Letter N Starts */
+.letter-n {
+	position: absolute;
+}
+
+.n-rec {
+	height: 110px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 42px;
+ 	bottom: -90px;
+ 	z-index: 1;
+}
+
+.n-rec2 {
+	height: 150px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(318deg);
+ 	left: 100px;
+ 	bottom: 90px;
+ 	z-index: 4;
+}
+
+.n-cir {
+	height: 60px;
+	width: 60px;
+	background: mediumseagreen;
+	border-radius: 50%;
+	position: relative;
+	left: 20px;
+	bottom: 260px;
+	z-index: 2;
+}
+
+.n-tri {
+	width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 200px solid #ffdf00;
+    transform: rotate(180deg);
+    position: relative;
+    left: 140px;
+    bottom: 320px;
+    z-index: 3;
+}
+/* Letter N Ends*/
+
+/* Letter O Starts */
+.letter-o {
+	position: absolute;
+}
+
+.o-cir {
+	height: 155px;
+	width: 155px;
+	background: mediumpurple;
+	border-radius: 50%;
+	position: relative;
+	left: 22px;
+	bottom: -22px;
+	z-index: 1;
+}
+
+.o-rec {
+	height: 90px;
+	width: 90px;
+	background: royalblue;
+	transform: rotate(45deg);
+	position: relative;
+	left: 54px;
+	bottom: 99px;
+	z-index: 3;
+
+}
+
+.o-rec2 {
+	height: 214px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(25deg);
+ 	left: 100px;
+ 	bottom: 252px;
+ 	z-index: 4;
+}
+
+.o-rec3 {
+	height: 180px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(70deg);
+ 	left: 90px;
+ 	bottom: 450px;
+ 	z-index: 2;
+}
+/* Letter O Ends */
+
+/* Letter P Starts */
+.letter-p {
+	position: absolute;
+}
+
+.p-rec {
+	height: 200px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 50px;
+ 	z-index: 3;
+}
+
+.p-cir {
+	height: 115px;
+	width: 115px;
+	background: crimson;
+	border-radius: 50%;
+	position: relative;
+	left: 40px;
+	bottom: 200px;
+	z-index: 1;
+}
+
+.p-cir2 {
+	height: 70px;
+	width: 70px;
+	background: darkorange;
+	border-radius: 50%;
+	position: relative;
+	left: 90px;
+	bottom: 270px;
+	z-index: 2;
+}
+/* Letter P Ends */
+
+/* Letter Q Starts */
+.letter-q {
+	position: absolute;
+}
+
+.q-cir {
+	height: 170px;
+	width: 170px;
+	background: mediumseagreen;
+	border-radius: 50%;
+	position: relative;
+	left: 15px;
+	z-index: 1;
+}
+
+.q-tri {
+	width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 85px solid #ffdf00;
+    position: relative;
+    left: 40px;
+    bottom: 105px;
+    z-index: 3;
+}
+
+.q-rec {
+	height: 185px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(145deg);
+ 	left: 120px;
+ 	bottom: 227px;
+ 	z-index: 2;
+}
+
+.q-rec2 {
+	height: 50px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(145deg);
+ 	left: 120px;
+ 	bottom: 300px;
+ 	z-index: 4;
+}
+/* Letter Q Ends */
+
+/* Letter R Starts */
+.letter-r {
+	position: absolute;
+}
+
+.r-rec {
+	height: 200px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 50px;
+ 	z-index: 2;
+}
+
+.r-cir {
+	height: 120px;
+	width: 120px;
+	background: mediumpurple;
+	border-radius: 50%;
+	position: relative;
+	left: 30px;
+	bottom: 200px;
+	z-index: 1;
+}
+
+.r-cir2 {
+	height: 65px;
+	width: 65px;
+	background: royalblue;
+	border-radius: 50%;
+	position: relative;
+	left: 40px;
+	bottom: 300px;
+	z-index: 4;
+}
+
+.r-tri {
+	width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 125px solid royalblue;
+    transform: rotate(140deg);
+    position: relative;
+    left: 100px;
+    bottom: 308px;
+    z-index: 4;
+}
+/* Letter R Ends */
+
+/* Letter S Starts */
+.letter-s {
+	position: absolute;
+}
+
+.s-tri {
+	width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 60px solid darkorange;
+    transform: rotate(180deg);
+    position: relative;
+    left: 30px;
+    z-index: 4;
+}
+
+.s-tri2 {
+	width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 60px solid crimson;
+    position: relative;
+    left: 30px;
+    bottom: -80px ;
+    z-index: 2;
+}
+
+.s-rec {
+	height: 175px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(135deg);
+ 	left: 93px;
+ 	bottom: 107px;
+ 	z-index: 3;
+}
+
+.s-rec2 {
+	height: 30px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 135px;
+ 	bottom: 246px;
+ 	z-index: 5;
+}
+
+.s-rec3 {
+	height: 30px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 48px;
+ 	bottom: 210px;
+ 	z-index: 1;
+}
+/* Letter S Ends */
+
+/* Letter T Starts */
+.letter-t {
+	position: absolute;
+}
+
+.t-rec {
+	height: 165px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 92px;
+ 	bottom: 50px;
+ 	z-index: 1;
+}
+
+.t-rec2 {
+	height: 50px;
+  	width: 115px;
+ 	background-color: #ffdf00;
+ 	position: relative;
+ 	left: 50px;
+ 	bottom: 160px;
+ 	z-index: 2;
+}
+
+.t-rec3 {
+	height: 115px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(10deg);
+ 	left: 105px;
+ 	bottom: 130px;
+ 	z-index: 3;
+}
+
+.t-tri {
+	width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 145px solid mediumseagreen;
+    transform: rotate(180deg);
+    position: relative;
+    left: 75px;
+    bottom: 308px;
+    z-index: 4;
+}
+/* Letter T Ends */
+
+/* Letter U Starts */
+.letter-u {
+	position: absolute;
+}
+
+.u-rec {
+	height: 140px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 35px;
+ 	z-index: 1;
+}
+
+.u-rec2 {
+	height: 200px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 153px;
+ 	bottom: 140px;
+ 	z-index: 3;
+}
+
+.u-rec3 {
+	height: 40px;
+  	width: 40px;
+ 	background-color: mediumpurple;
+ 	position: relative;
+ 	transform: rotate(60deg);
+ 	left: 30px;
+ 	bottom: 315px;
+ 	z-index: 5;
+}
+
+.u-rec4 {
+	height: 30px;
+  	width: 30px;
+ 	background-color: mediumpurple;
+ 	position: relative;
+ 	left: 130px;
+ 	bottom: 300px;
+ 	z-index: 4;
+}
+
+.u-tri {
+	width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 50px solid royalblue;
+    position: relative;
+    left: 27px;
+    bottom: 260px ;
+    z-index: 2;
+}
+/* Letter U Ends */
+
+/* Letter V Starts */
+.letter-v {
+	position: absolute;
+}
+
+.v-tri {
+	width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 150px solid crimson;
+    transform: rotate(340deg);
+    position: relative;
+    left: 40px;
+    bottom: px;
+    z-index: 1;
+}
+
+.v-rec {
+	height: 35px;
+  	width: 35px;
+ 	background-color: darkorange;
+ 	position: relative;
+ 	left: 70px;
+ 	bottom: px;
+ 	z-index: 4;
+}
+
+.v-rec2 {
+	height: 175px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(20deg);
+ 	left: 120px;
+ 	bottom: 157px;
+ 	z-index: 3;
+}
+
+.v-cir {
+	height: 50px;
+	width: 50px;
+	background: darkorange;
+	border-radius: 50%;
+	position: relative;
+	left: 135px;
+	bottom: 360px;
+	z-index: 2;
+}
+/* Letter V Ends */
+
+/* Letter W Starts */
+.letter-w {
+	position: absolute;
+}
+
+.w-rec {
+	height: 150px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 30px;
+ 	z-index: 2;
+}
+
+.w-rec2 {
+	height: 200px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	left: 163px;
+ 	bottom: 150px;
+ 	z-index: 3;
+}
+
+.w-rec3 {
+	height: 70px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(330deg);
+ 	left: 125px;
+ 	bottom: 230px;
+ 	z-index: 5;
+}
+
+.w-rec4 {
+	height: 60px;
+	width: 60px;
+	background: mediumseagreen;
+	position: relative;
+	left: 15px;
+	bottom: 280px;
+	z-index: 1;
+}
+
+.w-tri {
+	width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 110px solid #ffdf00;
+    position: relative;
+    transform: rotate(230deg);
+    left: 60px;
+    bottom: 390px;
+    z-index: 4;
+}
+/* Letter W Ends */
+
+/* Letter X Starts */
+.letter-x {
+	position: absolute;
+}
+
+.x-rec {
+	height: 40px;
+	width: 40px;
+	background: royalblue;
+	position: relative;
+	left: 25px;
+}
+
+.x-rec2 {
+	height: 223px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(30deg);
+ 	left: 90px;
+ 	bottom: 51px;
+}
+
+.x-tri {
+	width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 190px solid mediumpurple;
+    position: relative;
+    transform: rotate(145deg);
+    left: 110px;
+    bottom: 235px;
+}
+/* Letter X Ends */
+
+/* Letter Y Starts */
+.letter-y {
+	position: absolute;
+}
+
+.y-tri {
+	width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 100px solid darkorange;
+    position: relative;
+    transform: rotate(325deg);
+    left: 40px;
+    bottom: 8px;
+    z-index: 3;
+}
+
+.y-rec {
+	height: 215px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(25deg);
+ 	left: 105px;
+ 	bottom: 108px;
+ 	z-index: 1;
+}
+
+.y-cir {
+	height: 55px;
+	width: 55px;
+	background: crimson;
+	border-radius: 50%;
+	position: relative;
+	left: 80px;
+	bottom: 250px;
+	z-index: 2;
+}
+/* Letter Y Ends */
+
+/* Letter Z Starts */
+.letter-z {
+	position: absolute;
+}
+
+.z-rec {
+	height: 125px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 87px;
+ 	bottom: 45px;
+ 	z-index: 2;
+}
+
+.z-rec2 {
+	height: 125px;
+  	width: 15px;
+ 	background-color: black;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 92px;
+ 	bottom: -6px;
+ 	z-index: 3;
+}
+
+.z-rec3 {
+	height: 50px;
+  	width: 50px;
+ 	background-color: #ffdf00;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 130px;
+ 	bottom: 250px;
+ 	z-index: 1;
+}
+
+.z-tri {
+	width: 0;
+    height: 0;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 190px solid mediumseagreen;
+    position: relative;
+    transform: rotate(33deg);
+    left: 75px;
+    bottom: 285px;
+    z-index: 4;
+}
+/* Letter Z Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
