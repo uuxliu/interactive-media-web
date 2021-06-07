@@ -29,8 +29,13 @@ p {
     line-height: 1.5em;
 }
 
-.here {
-	text-decoration: none;
+a {
+    color: black;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
 }
         
 figcaption {
