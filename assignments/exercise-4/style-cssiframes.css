@@ -1,0 +1,43 @@
+/* Stylesheet for Exercise 4: CSS iFrames */
+
+/* Apply center alignmnet to all text */
+* {
+	text-align: center;
+}
+
+/* Style Choices Starts */
+body {
+	background: black;
+	color: white;
+}
+
+h1, .intro {
+	font-family: Poppins, sans-serif;
+	font-size: 30px;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+}
+
+iframe {
+	height: 400px;
+	width: 500px;
+	border: 2px white dashed;
+	allowfullscreen
+}
+/* Style Choices Ends */
+
+/* Media Queries: for responsive interface */
+@media (max-width: 991px) {
+	h1, .intro {
+		font-size: 7vw;
+	}
+	p {
+		font-size: 4vw;
+	}
+	iframe {
+		width: 100%;
+	}
+}
