@@ -23,5 +23,12 @@ p {
 
 img {
 	width: 400px;
-	height: 300;
+	height: 300px;
+}
+
+@media (max-width: 9961px){
+	img {
+		width: 100%;
+		height: 100%;
+	}
 }
