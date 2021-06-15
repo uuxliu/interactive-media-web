@@ -26,3 +26,14 @@ img {
 	height: 450px;
 	border: 1px dashed;
 }
+
+a {
+	font-family: Poppins, sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: hotpink;
+}
+
+a:hover {
+	color: deeppink;
+}
