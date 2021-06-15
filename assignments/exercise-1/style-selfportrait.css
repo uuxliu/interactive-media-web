@@ -38,3 +38,20 @@ a {
 a:hover {
 	color: deeppink;
 }
+/* Text Style Choices Ends */
+
+/* Media Queries: for responsive interface */
+@media (max-width: 991px) {
+	h1, .intro {
+		font-size: 7vw;
+	}
+	p {
+		font-size: 4vw;
+	}
+	a {
+		font-size: 5vw;
+	}
+	img {
+		width: 100%;
+	}
+}
