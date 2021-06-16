@@ -21,11 +21,15 @@ p {
 }
 /* Stylistic Text Choices Ends */
 
-/* Letter A Starts */
-.letter-a {
-	position: absolute;
+.letter {
+	width: 200px; /*resize as you see fit */
+    height: 200px; /*resize as you see fit */
+    display: inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+    border: 1px dashed #f5eadf; /*feel free to remove or hide this rule */
+    position: relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
 }
 
+/* Letter A Starts */
 .a-tri {
 	width: 0;
     height: 0;
@@ -85,10 +89,6 @@ p {
 /* Letter A Ends */
 
 /* Letter B Starts */
-.letter-b {
-	position: absolute;
-}
-
 .b-rec {
 	height: 200px;
   	width: 15px;
@@ -135,10 +135,6 @@ p {
 /* Letter B Ends */
 
 /* Letter C Starts */
-.letter-c {
-	position: absolute;
-}
-
 .c-tri {
 	height: 0;
 	width: 0;
@@ -186,10 +182,6 @@ p {
 /* Letter C Ends */
 
 /* Letter D Starts */
-.letter-d {
-	position: absolute;
-}
-
 .d-rec {
 	height: 200px;
   	width: 15px;
@@ -225,10 +217,6 @@ p {
 /* Letter D Ends */
 
 /* Letter E Ends */
-.letter-e {
-	position: absolute;
-}
-
 .e-rec {
 	height: 110px;
   	width: 15px;
@@ -290,10 +278,6 @@ p {
 /* Letter E Ends */
 
 /* Letter F Starts */
-.letter-f {
-	position: absolute;
-}
-
 .f-tri {
 	width: 0;
 	height: 0;
@@ -341,10 +325,6 @@ p {
 /* Letter F Ends */
 
 /* Letter G Starts */
-.letter-g {
-	position: absolute;
-}
-
 .g-tri {
 	height: 0;
 	width: 0;
@@ -403,10 +383,6 @@ p {
 /* Letter G Ends */
 
 /* Letter H Starts */
-.letter-h {
-	position: absolute;
-}
-
 .h-rec {
 	height: 200px;
   	width: 15px;
@@ -447,10 +423,6 @@ p {
 /* Letter H Ends */
 
 /* Letter I Starts */
-.letter-i {
-	position: absolute;
-}
-
 .i-rec {
 	height: 100px;
   	width: 15px;
@@ -508,10 +480,6 @@ p {
 /* Letter I Ends */
 
 /* Letter J Starts */
-.lette-j {
-	position: absolute;
-}
-
 .j-tri {
 	width: 0;
 	height: 0;
@@ -553,10 +521,6 @@ p {
 /* Letter J Ends */
 
 /* Letter K Starts */
-.letter-k {
-	position: absolute;
-}
-
 .k-rec {
 	height: 200px;
   	width: 15px;
@@ -603,10 +567,6 @@ p {
 /* Letter K Ends */
 
 /* Letter L Starts */
-.letter-l {
-	position: absolute;
-}
-
 .l-tri {
 	height: 0;
 	width: 0;
@@ -652,10 +612,6 @@ p {
 /* Letter L Ends */
 
 /* Letter M Starts */
-.letter-m {
-	position: absolute;
-}
-
 .m-tri {
 	height: 0;
 	width: 0;
@@ -712,10 +668,6 @@ p {
 /* Letter M Ends */
 
 /* Letter N Starts */
-.letter-n {
-	position: absolute;
-}
-
 .n-rec {
 	height: 110px;
   	width: 15px;
@@ -763,10 +715,6 @@ p {
 /* Letter N Ends*/
 
 /* Letter O Starts */
-.letter-o {
-	position: absolute;
-}
-
 .o-cir {
 	height: 155px;
 	width: 155px;
@@ -814,10 +762,6 @@ p {
 /* Letter O Ends */
 
 /* Letter P Starts */
-.letter-p {
-	position: absolute;
-}
-
 .p-rec {
 	height: 200px;
   	width: 15px;
@@ -851,10 +795,6 @@ p {
 /* Letter P Ends */
 
 /* Letter Q Starts */
-.letter-q {
-	position: absolute;
-}
-
 .q-cir {
 	height: 170px;
 	width: 170px;
@@ -901,10 +841,6 @@ p {
 /* Letter Q Ends */
 
 /* Letter R Starts */
-.letter-r {
-	position: absolute;
-}
-
 .r-rec {
 	height: 200px;
   	width: 15px;
@@ -951,10 +887,6 @@ p {
 /* Letter R Ends */
 
 /* Letter S Starts */
-.letter-s {
-	position: absolute;
-}
-
 .s-tri {
 	width: 0;
     height: 0;
@@ -1012,10 +944,6 @@ p {
 /* Letter S Ends */
 
 /* Letter T Starts */
-.letter-t {
-	position: absolute;
-}
-
 .t-rec {
 	height: 165px;
   	width: 15px;
@@ -1063,10 +991,6 @@ p {
 /* Letter T Ends */
 
 /* Letter U Starts */
-.letter-u {
-	position: absolute;
-}
-
 .u-rec {
 	height: 140px;
   	width: 15px;
@@ -1121,10 +1045,6 @@ p {
 /* Letter U Ends */
 
 /* Letter V Starts */
-.letter-v {
-	position: absolute;
-}
-
 .v-tri {
 	width: 0;
     height: 0;
@@ -1172,10 +1092,6 @@ p {
 /* Letter V Ends */
 
 /* Letter W Starts */
-.letter-w {
-	position: absolute;
-}
-
 .w-rec {
 	height: 150px;
   	width: 15px;
@@ -1231,10 +1147,6 @@ p {
 /* Letter W Ends */
 
 /* Letter X Starts */
-.letter-x {
-	position: absolute;
-}
-
 .x-rec {
 	height: 40px;
 	width: 40px;
@@ -1267,10 +1179,6 @@ p {
 /* Letter X Ends */
 
 /* Letter Y Starts */
-.letter-y {
-	position: absolute;
-}
-
 .y-tri {
 	width: 0;
     height: 0;
@@ -1308,10 +1216,6 @@ p {
 /* Letter Y Ends */
 
 /* Letter Z Starts */
-.letter-z {
-	position: absolute;
-}
-
 .z-rec {
 	height: 125px;
   	width: 15px;
