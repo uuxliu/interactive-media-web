@@ -24,6 +24,11 @@ p {
 	font-size: 15px;
 }
 
+img {
+	width: 50%;
+	height: 50%;
+}
+
 @media (max-width: 991px) {
 	h1, .intro {
 		font-size: 45px;
