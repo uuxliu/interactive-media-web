@@ -25,8 +25,8 @@ p {
 }
 
 img {
-	width: 50%;
-	height: 50%;
+	width: 2880px;
+	height: 1800px;
 }
 
 @media (max-width: 991px) {
