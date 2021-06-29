@@ -1,0 +1,41 @@
+/* Stylesheet for Reading Response 5 */
+
+* {
+	text-align: center;
+}
+
+body {
+	background: black;
+	color: white;
+}
+
+h1, .intro {
+	font-family: Poppins, sans-serif;
+	font-size: 30px;
+}
+
+h2, a {
+	font-family: Poppins, sans-serif;
+	font-size: 20px;
+}
+
+a:hover {
+	font-family: Poppins, sans-serif;
+}
+
+p, .link {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+}
+
+@media (max-width: 996px) {
+	h1, .intro {
+		font-size: ;
+	}
+	h2 {
+		font-size: ;
+	}
+	p {
+		font-size: ;
+	}
+}
