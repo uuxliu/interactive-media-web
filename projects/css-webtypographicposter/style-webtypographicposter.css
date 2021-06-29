@@ -1,0 +1,511 @@
+/* Stylesheet for CSS typographic Poster */
+
+/* Simple Stylistic Body Choices */
+* {
+	color: lightgray;
+}
+
+body {
+	background: linear-gradient(-45deg, #00008b, #800080, #03406d);
+	background-size: 200% 200%;
+	background-repeat: none;
+	animation: gradient 5s ease reverse infinite;
+	height: 2014px;
+
+}
+/* Simple Stylistic Body Choices */
+
+/* Gradient Background Animation Starts */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+/* Gradient Background Animation Ends */
+
+/* Title: Own Font Starts */
+.letter {
+	width: 200px; /*resize as you see fit */
+    height: 200px; /*resize as you see fit */
+    display: inline-block; /* this makes block level elements act like letters (so they sit next to eachother) */
+  	/*border: 1px dashed #f5eadf; feel free to remove or hide this rule */
+    border-top: 25px;
+    position: relative; /* IMPORTANT: any element with position:absolute inside this container will now be relative to bounds of this element; */
+}
+
+/* Letter V Starts */
+.v-tri {
+	width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 150px solid crimson;
+    transform: rotate(340deg);
+    position: relative;
+    left: 40px;
+    z-index: 1;
+}
+
+.v-rec {
+	height: 35px;
+  	width: 35px;
+ 	background-color: darkorange;
+ 	position: relative;
+ 	left: 70px;
+ 	z-index: 4;
+}
+
+.v-rec2 {
+	height: 175px;
+  	width: 15px;
+ 	background-color: lightgray;
+ 	position: relative;
+ 	transform: rotate(20deg);
+ 	left: 120px;
+ 	bottom: 157px;
+ 	z-index: 3;
+}
+
+.v-cir {
+	height: 50px;
+	width: 50px;
+	background: darkorange;
+	border-radius: 50%;
+	position: relative;
+	left: 135px;
+	bottom: 360px;
+	z-index: 2;
+}
+/* Letter V Ends */
+
+/* Letter D Starts */
+.d-rec {
+	height: 200px;
+  	width: 15px;
+ 	background-color: lightgray;
+ 	position: relative;
+ 	left: 45px;
+ 	z-index: 1;
+}
+
+.d-tri {
+	height: 0;
+	width: 0;
+	border-top: 100px solid transparent;
+	border-right: 100px solid darkorange;
+	border-bottom: 100px solid transparent;
+	position: relative;
+	transform: rotate(180deg);
+	left: 80px;
+	bottom: 200px;
+	z-index: 2;
+}
+
+.d-cir {
+	height: 75px;
+	width: 75px;
+	background: crimson;
+	border-radius: 50%;
+	position: relative;
+	left: 50px;
+	bottom: 335px;
+	z-index: 3;
+}
+/* Letter D Ends */
+
+/* Letter L Starts */
+.l-tri {
+	height: 0;
+	width: 0;
+	border-top: 100px solid transparent;
+	border-right: 55px solid crimson;
+	border-bottom: 100px solid transparent;
+	position: relative;
+	left: 25px;
+	z-index: 2;
+}
+
+.l-rec {
+	height: 90px;
+  	width: 15px;
+ 	background-color: lightgray;
+ 	position: relative;
+ 	left: 45px;
+ 	bottom: 200px;
+ 	z-index: 3;
+}
+
+.l-rec2 {
+	height: 120px;
+  	width: 15px;
+ 	background-color: lightgray;
+ 	transform: rotate(90deg);
+ 	position: relative;
+ 	left: 100px;
+ 	bottom: 157px;
+ 	z-index: 1;
+}
+
+.l-cir {
+	height: 30px;
+	width: 30px;
+	background: darkorange;
+	border-radius: 50%;
+	position: relative;
+	left: 40px;
+	bottom: 270px;;
+	z-index: 4;
+}
+/* Letter L Ends */
+
+/* Letter S Starts */
+.s-tri {
+	width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 60px solid darkorange;
+    transform: rotate(180deg);
+    position: relative;
+    left: 30px;
+    z-index: 4;
+}
+
+.s-tri2 {
+	width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 60px solid crimson;
+    position: relative;
+    left: 30px;
+    bottom: -80px ;
+    z-index: 2;
+}
+
+.s-rec {
+	height: 175px;
+  	width: 15px;
+ 	background-color: lightgray;
+ 	position: relative;
+ 	transform: rotate(135deg);
+ 	left: 93px;
+ 	bottom: 107px;
+ 	z-index: 3;
+}
+
+.s-rec2 {
+	height: 30px;
+  	width: 15px;
+ 	background-color: lightgray;
+ 	position: relative;
+ 	left: 135px;
+ 	bottom: 246px;
+ 	z-index: 5;
+}
+
+.s-rec3 {
+	height: 30px;
+  	width: 15px;
+ 	background-color: lightgray;
+ 	position: relative;
+ 	left: 48px;
+ 	bottom: 210px;
+ 	z-index: 1;
+}
+/* Letter S Ends */
+
+/* Isiting Starts */
+.isiting {
+	position: relative;
+	left: 180px;
+	top: -915px;
+}
+/* Isiting Ends */
+
+/* Esigner Starts */
+.esigner {
+	position: relative;
+	left: 180px;
+	top: -965px;
+}
+/* Esigner Ends */
+
+/* Ecture Starts */
+.ecture {
+	position: relative;
+	left: 180px;
+	top: -1015px;
+}
+/* Ecture Ends */
+
+/* Eries Starts */
+.eries {
+	position: relative;
+	left: 180px;
+	top: -1065px;
+}
+/* Eries Ends */
+/* Title: Own Font Ends */
+
+/* Logo Starts */
+img {
+	width: 100px;
+	height: 100px;
+	position: relative;	
+	left: 1065px;
+	top: 40px;
+}
+
+.logo {
+	text-decoration: none;
+}
+/* Logo Link Ends */
+
+/* Line Starts */
+.line {
+	background: linear-gradient(180deg, yellow, darkorange, crimson);
+	height: 2850px;
+	width: 7px;
+	position: relative;
+	left: 1113px;
+	top:  -2000px;
+}
+/* Line Ends */
+
+/* Text Choices Start */
+h1 {
+	font-family: Arial, sans-serif;
+	font-size: 150px;
+	color: lightgray;
+}
+
+h2 {
+	transform: rotate(90deg);
+}
+
+/* Prem Krishnamurthy Starts */
+.prem-t {
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	colour: lightgray;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	left: 750px;
+	top: -4050px;
+}
+
+.prem {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	colour: lightgray;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	left: 700px;
+	top: -4470px;
+	text-align: right;
+	text-decoration: underline;
+}
+
+.prem-p {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	colour: lightgray;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	left: 700px;
+	top: -4840px;
+	text-align: right;
+}
+
+.prem-h {
+	background-color: none;
+  	color: lightgray;
+ 	border: 1px solid lightgray;
+	border-radius: 3px;
+	padding: 10px 24px;
+	transition-duration: 0.5s;
+	position: relative;
+	left: 975px;
+	top: -5020px;
+}
+
+.prem-h:hover {
+	background-color: lightgray;
+  	color: black;
+}
+/*<!-- Prem Krishnamurthy Ends --!>*/
+
+/* Paul Sahr Starts */
+.paul-t {
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	colour: lightgray;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	left: 750px;
+	top: -4900px;
+}
+
+.paul {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	colour: lightgray;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	left: 700px;
+	top: -5322px;
+	text-align: right;
+	text-decoration: underline;
+}
+
+.paul-p {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	colour: lightgray;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	left: 700px;
+	top: -5695px;
+	text-align: right;
+}
+
+.paul-h {
+	background-color: none;
+  	color: lightgray;
+ 	border: 1px solid lightgray;
+	border-radius: 3px;
+	padding: 10px 24px;
+	transition-duration: 0.5s;
+	position: relative;
+	left: 975px;
+	top: -5913px;
+}
+
+.paul-h:hover {
+	background-color: lightgray;
+  	color: black;
+}
+/* Paul Sahr Starts */
+
+/* Nelly Ben Hayoun Starts */
+.nelly-t {
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	colour: lightgray;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	left: 750px;
+	top: -5800px;
+}
+
+.nelly {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	colour: lightgray;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	left: 700px;
+	top: -6221px;
+	text-align: right;
+	text-decoration: underline;
+}
+
+.nelly-p {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	colour: lightgray;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	left: 700px;
+	top: -6592px;
+	text-align: right;
+}
+
+.nelly-h {
+	background-color: none;
+  	color: lightgray;
+ 	border: 1px solid lightgray;
+	border-radius: 3px;
+	padding: 10px 24px;
+	transition-duration: 0.5s;
+	position: relative;
+	left: 975px;
+	top: -6738px;
+}
+
+.nelly-h:hover {
+	background-color: lightgray;
+  	color: black;
+}
+/* Nelly Ben Hayoun Starts */
+
+/* E Roon Kang Starts */
+.eroon-t {
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	colour: lightgray;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	left: 750px;
+	top: -6625px;
+}
+
+.eroon {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	colour: lightgray;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	left: 700px;
+	top: -7046px;
+	text-align: right;
+	text-decoration: underline;
+}
+
+.eroon-p {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	colour: lightgray;
+	position: relative;
+	width: 400px;
+	height: 400px;
+	left: 700px;
+	top: -7419px;
+	text-align: right;
+}
+
+.eroon-h {
+	background-color: none;
+  	color: lightgray;
+ 	border: 1px solid lightgray;
+	border-radius: 3px;
+	padding: 10px 24px;
+	transition-duration: 0.5s;
+	position: relative;
+	left: 975px;
+	top: -7510px;
+}
+
+.eroon-h:hover {
+	background-color: lightgray;
+  	color: black;
+}
+/* E Roon Kang Ends */
