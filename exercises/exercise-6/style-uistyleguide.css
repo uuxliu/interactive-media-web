@@ -1,0 +1,244 @@
+/* Stylesheet for Exercise 6 */
+
+/* Text Style Choices Start */
+* {
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+body {
+	background: white;
+	color: black;
+}
+
+h1, .intro {
+	font-family: Poppins, sans-serif;
+	font-size: 30px;
+}
+
+h2 {
+	font-family: Poppins, sans-serif;
+	font-size: 25px;
+}
+
+h3 {
+	font-family: Poppins,sans-serif;
+	font-size: 20px;
+}
+
+p {
+	font-family: Poppins, sans-serif;
+	font-size: 10px;
+}
+/* /* Text Style Choices End */
+
+/* Colour Starts */
+.colour {
+	display: inline-block;
+}
+
+.colour-1 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #7F95D1;
+}
+
+.colour-2 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #FF82A9;
+}
+
+.colour-3 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #FFC0BE;
+}
+
+.colour-4 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #FFEBE7;
+}
+
+.colour-5 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #E5B181;
+}
+
+.colour-6 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #F4B9B2;
+}
+
+.colour-7 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #D4CDF4;
+}
+
+.colour-8 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #EFD9CE;
+}
+
+.para {
+	display: inline-block;
+	font-size: 12px;
+}
+/* Colour Ends */
+
+/* Headers Start */
+.head-1 {
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 65px;
+}
+
+.head-2 {
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 55px;
+}
+
+.head-3 {
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 40px;
+}
+/* Headers End */
+
+/* Body Copy Starts */
+.body-copy {
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+}
+/* Body Copy Ends */
+
+/* Text Links Start */
+a {
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	text-decoration: underline;
+	color: black;
+}
+
+a:hover {
+	color: hotpink;
+	text-decoration: none;
+}
+/* Text Links Ends */
+
+/* Buttons Start */
+.button-inactive {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 14px 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.button-inactive:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.button-active {
+	background-color: black;
+	border: 2px solid lightgreen;
+	color: lightgreen;
+	padding: 14px 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.button-active:hover {
+	text-decoration: none;
+	color: lightgreen;
+}
+
+.button-hover {
+	background-color: black;
+	color: lightgreen;
+	padding: 14px 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	transitiion-duration: 10s;
+}
+
+.button-hover:hover {
+	text-decoration: none;
+	background-color: white;
+	color: hotpink;
+	border: 2px solid lightpink;
+}
+/* Buttons End */
+
+/* Inputs Start */
+input {
+	font-family: Poppins, sans-serif;
+	font-size: 15px;
+	width: 50%;
+}
+
+input[type=submit] {
+ 	color: white;
+ 	background-color: black;
+ 	width: 10%;
+ 	border-radius: 2px;
+}
+
+input[type=submit]:hover {
+ 	color: black;
+ 	background-color: lightgreen;
+}
+
+.input-active {
+	background-color: lightgreen;
+	color: black;
+}
+
+.input-error {
+	background-color: lightpink;
+	color: black;
+}
+/* Inputs End */
+
+/* Media Queries Start */
+@media (max-width: 991px) {
+	h1, .intro {
+		font-size: 45px;
+	}
+	h2 {
+		font-size: 35px;
+	}
+	p {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 600px) {
+	h1, .intro {
+		font-size: 40px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	p {
+		font-size: 15px;
+	}
+}
+/* Media Queries End */
